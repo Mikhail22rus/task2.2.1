@@ -10,7 +10,5 @@ public interface UserDao {
 
     List<User> listUsers();
 
-    void saveCar(Car car);
-
     User getUserByCarModelAndSeries(String model, int series);
 }
